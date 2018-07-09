@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="text-cener white-text">My Diary</h1>
+                <nav>
+                    <ul class="no-styling text-ceter">
+                        <li class="list-inline"><a href="index.html" class="white-text">Homepage</a></li>
+                        <li class="list-inline"><a href="signup.html" class="white-text">Signup</a></li>
+                        <li class="list-inline"><a href="signin.html" class="white-text">Signin</a></li>
+                        <li class="list-inline"><a href="new.html" class="white-text">New</a></li>
+                        <li class="list-inline"><a href="profile.html" class="white-text">Profile</a></li>
+                        <li class="list-inline"><a href="edit_profile.html" class="white-text">Edit Profile</a></li>
+                        <li class="list-inline"><a href="backup.html" class="white-text">Backup</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="signup_section">
+            <div class="container">
+                <h1 class="underline text-center">Create An Account</h1>
+                <p id="output_message"></p>
+                <form class="" id="signup-form" onsubmit="submit_signup_form()">
+                    <div class="field">
+                        <div class="label_div">
+                            <label>Full Name</label>
+                        </div>
+                        <div class="input_div">
+                            <input type="text" required="true" class="control" id="signup_fullname" placeholder="Enter Fullname" autocomplete="name" value="Runor Adjekpiyede" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="label_div">
+                            <label>Email Address</label>
+                        </div>
+                        <div class="input_div">
+                            <input type="email" required="true" class="control" id="signup_email" placeholder="Enter Email Address" autocomplete="email" value="kamp@example.com" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="label_div">
+                            <label>Username</label>
+                        </div>
+                        <div class="input_div">
+                            <input type="text" class="control" id="signup_username" placeholder="Enter Username" autocomplete="username" value="username" pattern="[a-z|A-Z|\d]{1,15}" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="label_div">
+                            <label>Password</label>
+                        </div>
+                        <div class="input_div">
+                            <input type="password" required="true" class="control" id="signup_password" placeholder="Enter Password" autocomplete="password" value="password" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="submit" class="control" value="Signup Now" />
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <script type="text/javascript" src="javascripts/script.js"></script>
+    <body>
+</html>
