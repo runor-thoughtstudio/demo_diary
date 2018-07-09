@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="text-cener white-text">My Diary</h1>
+                <nav>
+                    <ul class="no-styling text-ceter">
+                        <li class="list-inline"><a href="index.html" class="white-text">Homepage</a></li>
+                        <li class="list-inline"><a href="signup.html" class="white-text">Signup</a></li>
+                        <li class="list-inline"><a href="signin.html" class="white-text">Signin</a></li>
+                        <li class="list-inline"><a href="new.html" class="white-text">New</a></li>
+                        <li class="list-inline"><a href="profile.html" class="white-text">Profile</a></li>
+                        <li class="list-inline"><a href="edit_profile.html" class="white-text">Edit Profile</a></li>
+                        <li class="list-inline"><a href="backup.html" class="white-text">Backup</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="container text-center">
+                <h3 class="underline">Signin To Access Your Diary</h3>
+                <p id="output_message"></p>
+                <form class="" id="signin-form" onsubmit="signin_form()">
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="text" required="true" class="" id="signup_fullname" placeholder="Enter Fullname" autocomplete="name" value="" />
+                    </div>
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" required="true" class="" id="signup_password" placeholder="Enter Password" autocomplete="password" value="" />
+                    </div>
+                    <div class="field">
+                        <input type="submit" class="" value="Signin" />
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+    <body>
+</html>
