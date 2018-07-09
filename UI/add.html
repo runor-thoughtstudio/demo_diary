@@ -22,6 +22,25 @@
             </div>
         </header>
 
+        <section>
+            <div class="container text-center">
+                <h3 class="underline">Write down your thoughts</h3>
+                <p id="output_message"></p>
+                <form class="" id="new-form" onsubmit="new_form()">
+                    <div class="field">
+                        <label>Title</label>
+                        <input type="text" required="true" class="" id="signup_fullname" placeholder="Write Title" autocomplete="title" value="My first thought" />
+                    </div>
+                    <div class="field">
+                        <label>Description</label>
+                        <textarea name="description" required="true" placeholder="Write Description" class=""></textarea>
+                    </div>
+                    <div class="field">
+                        <input type="submit" class="" value="Add To Diary" />
+                    </div>
+                </form>
+            </div>
+        </section>
 
         <script type="text/javascript" src="javascripts/script.js"></script>
     <body>
